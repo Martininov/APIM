@@ -1,5 +1,5 @@
 from flask import Flask, jsonify
-import understat.constants as constants
+import understat
 
 app = Flask(__name__)
 
