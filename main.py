@@ -1,5 +1,6 @@
 from flask import Flask, jsonify
-import understat
+from . import understat   # ✅ Import du module local au lieu du package PyPI
+import constants
 
 app = Flask(__name__)
 
